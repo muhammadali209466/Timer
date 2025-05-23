@@ -1,0 +1,154 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Ancizar";
+}
+
+.container {
+  width: 80%;
+  margin: 10px auto;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+.container h1 {
+  text-align: center;
+  font-size: 40px;
+  color: purple;
+}
+.inputField {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  gap: 15px;
+}
+.minutesDiv {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+.secondDiv {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+.milisecDiv {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+.minutesDiv input {
+  width: 100%;
+  border-radius: 50%;
+  height: 100%;
+  background-color: rgb(84, 255, 84);
+  border: solid 1px rgb(84, 255, 84);
+  outline: none;
+  text-align: center;
+  font-size: 24px;
+  color: rgb(232, 7, 7);
+  font-weight: 700;
+}
+.secondDiv input {
+  outline: none;
+  width: 100%;
+  border-radius: 50%;
+  height: 100%;
+  background-color: rgb(243, 243, 32);
+  border: solid 1px rgb(255, 255, 109);
+  text-align: center;
+  font-size: 24px;
+  color: rgb(19, 58, 81);
+  font-weight: 700;
+}
+.milisecDiv input {
+  outline: none;
+  width: 100%;
+  border-radius: 50%;
+  height: 100%;
+  border: solid 1px rgb(241, 96, 96);
+  background-color: rgb(241, 96, 96);
+  text-align: center;
+  font-size: 24px;
+  color: whitesmoke;
+  font-weight: 700;
+}
+
+.no-spinner::-webkit-outer-spin-button,
+.no-spinner::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.minutesDiv input::placeholder {
+  font-weight: 700;
+  color: whitesmoke;
+}
+.secondDiv input::placeholder {
+  font-weight: 700;
+  color: whitesmoke;
+}
+.milisecDiv input::placeholder {
+  color: whitesmoke;
+  font-weight: 700;
+}
+.buttons {
+  width: 80%;
+  margin: 20px auto;
+  text-align: center;
+  padding-bottom: 60px;
+}
+.Start {
+  padding: 10px;
+  width: 70px;
+  border: none;
+  background-color: rgb(31, 96, 31);
+  color: whitesmoke;
+  font-size: 20px;
+  border-radius: 7px;
+  margin: 6px;
+  transition: all ease 0.6s;
+  cursor: pointer;
+  font-weight: 600;
+  width: 100px;
+}
+.Stop {
+  padding: 10px;
+  cursor: pointer;
+  width: 70px;
+  border: none;
+  background-color: rgb(214, 60, 60);
+  color: whitesmoke;
+  font-size: 20px;
+  border-radius: 7px;
+  margin: 6px;
+  transition: all ease 0.6s;
+  font-weight: 600;
+  width: 100px;
+}
+
+.Reset {
+  cursor: pointer;
+  padding: 10px;
+  width: 70px;
+  border: none;
+  background-color: rgb(2, 55, 83);
+  color: whitesmoke;
+  font-size: 20px;
+  border-radius: 7px;
+  margin: 6px;
+  transition: all ease 0.6s;
+  font-weight: 600;
+  width: 100px;
+}
+.Start:hover {
+  background-color: greenyellow;
+  color: rgb(35, 35, 87);
+}
+.Stop:hover {
+  background-color: rgb(196, 246, 16);
+  color: mediumblue;
+}
+.Reset:hover {
+  background-color: rgba(4, 236, 252, 0.824);
+  color: rgb(207, 24, 110);
+}
