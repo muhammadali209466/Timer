@@ -152,3 +152,21 @@
   background-color: rgba(4, 236, 252, 0.824);
   color: rgb(207, 24, 110);
 }
+
+@media screen and (min-width: 320px) and (max-width: 600px) {
+  .minutesDiv {
+    border-radius: 50%;
+    width: 80px;
+    height: 100px;
+  }
+  .secondDiv {
+    border-radius: 50%;
+    width: 80px;
+    height: 100px;
+  }
+  .milisecDiv {
+    border-radius: 50%;
+    width: 80px;
+    height: 100px;
+  }
+}
